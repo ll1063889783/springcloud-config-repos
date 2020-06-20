@@ -10,7 +10,7 @@ spring:
     servlet:
       content-type: text/html
 server:
-  port: 8765
+  port: 8766
 #feign中自带熔断器，默认是关闭的，可以在全局配置文件中开启
 feign:
   hystrix:
